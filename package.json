@@ -1,0 +1,25 @@
+{
+  "name": "meowcorp.net",
+  "version": "1.0.0",
+  "description": "the meowcorp website",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meowcorp-Group/meowcorp.net.git"
+  },
+  "keywords": [],
+  "author": "Waoweens, sitaslmao, Skytoon50",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Meowcorp-Group/meowcorp.net/issues"
+  },
+  "homepage": "https://meowcorp.net",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

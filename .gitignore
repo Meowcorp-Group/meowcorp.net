@@ -1,9 +1,12 @@
-#jekyll
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+node_modules/
 
+# old
+
+#jekyll
+old/_site
+old/.sass-cache
+old/.jekyll-cache
+old/.jekyll-metadata
+old/vendor
 # smp
-smp_src/node_modules
+old/smp_src/node_modules
