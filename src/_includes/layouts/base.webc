@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meowcorp</title>
+</head>
+<body>
+	<header>
+		<site-header webc:nokeep></site-header>
+	</header>
+	<main>
+		<div @raw="content" webc:nokeep></div>
+	</main>
+	<footer>
+		<site-footer webc:nokeep></site-footer>
+	</footer>
+</body>
+</html>
