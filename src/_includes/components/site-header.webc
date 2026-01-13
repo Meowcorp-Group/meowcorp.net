@@ -1,1 +1,11 @@
-header
+<!-- parent: <header> -->
+<a href="/">Meowcorp</a>
+<span class="leading-none self-center mx-3">/</span>
+<nav>
+	<ul class="flex gap-3">
+		<li webc:for="(i, item) in $data.nav">
+			<a class="underline" :href="item.href" @text="item.text"></a><!--
+			--><span class="leading-none ml-3" webc:if="i < $data.nav.length - 1">/</span>
+		</li>
+	</ul>
+</nav>
