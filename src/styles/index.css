@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+* {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header {
+	@apply flex items-center p-4 bg-black text-white text-xl
+}
+
+main {
+	@apply p-4 bg-slate-700 text-white
+}

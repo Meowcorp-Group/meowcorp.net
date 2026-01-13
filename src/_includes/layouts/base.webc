@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Meowcorp</title>
+
+	<link webc:keep webc:for="(_, style) in $data.headIndex.styles" rel="stylesheet" :href="`/styles/${style}`">
+	<script webc:keep webc:for="(_, script) in $data.headIndex.scripts" :src="`/scripts/${script}`" defer></script>
 </head>
+
 <body>
 	<header>
 		<site-header webc:nokeep></site-header>
@@ -16,4 +21,5 @@
 		<site-footer webc:nokeep></site-footer>
 	</footer>
 </body>
+
 </html>

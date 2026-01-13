@@ -9,6 +9,10 @@ export default async function (eleventyConfig) {
 	})
 
 	eleventyConfig.addPlugin(PostCSSPlugin)
+
+	// styles handled by PostCSS plugin
+	eleventyConfig.addPassthroughCopy({ 'src/scripts': '/scripts' });
+	eleventyConfig.addPassthroughCopy({ 'src/assets': '/assets' });
 }
 
 export const config = {

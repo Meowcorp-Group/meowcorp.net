@@ -1,0 +1,9 @@
+{
+	"styles": [
+		"index.css"
+	],
+	"scripts": [
+		"index.js",
+		"oneko-webring.js"
+	]
+}
