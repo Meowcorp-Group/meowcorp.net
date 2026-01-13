@@ -2,4 +2,99 @@
 layout: layouts/base.webc
 ---
 
-main
+<section>
+	<h1 class="font-bold text-4xl mb-4">Meowcorp</h1>
+	<p>hello</p>
+</section>
+
+<section class="mb-4">
+	<h2 class="font-bold text-3xl mb-2">Team</h2>
+	<div class="flex flex-wrap gap-4">
+		<article class="profile-card">
+			<header>
+				<figure>
+					<img src="/assets/profile-waoweens.png" alt="Waoweens profile photo">
+				</figure>
+				<div>
+					<h3>Waoweens <span>(they/them)</span></h3>
+					<p>Lead maintainer</p>
+				</div>
+			</header>
+			<section>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est rem praesentium, illo magni ipsam
+					possimus.</p>
+			</section>
+			<nav>
+				<ul>
+					<li>
+						<a data-neko="true" target="_blank" href="https://wao.my.id">Website</a><span>/</span>
+					</li>
+					<li>
+						<a target="_blank" href="mailto:me@wao.my.id">Email</a><span>/</span>
+					</li>
+					<li>
+						<a target="_blank" href="https://github.com/Waoweens">GitHub</a><span>/</span>
+					</li>
+					<li>
+						<a target="_blank" href="https://bsky.app/profile/wao.my.id">Bluesky</a><span>/</span>
+					</li>
+					<li>
+						<a target="_blank" href="https://twitter.com/Waoweens">Twitter</a>
+					</li>
+				</ul>
+			</nav>
+		</article>
+		<article class="profile-card">
+			<header>
+				<figure>
+					<img src="/assets/profile-sitas.png" alt="sitas profile photo">
+				</figure>
+				<div>
+					<h3>sitas <span>(any/all)</span></h3>
+					<p>Contributor</p>
+				</div>
+			</header>
+			<section>
+				<p>i draw stuff i guess, i'm also addicted to a certain arcade video game</p>
+			</section>
+			<nav>
+				<ul>
+					<li><a target="_blank" href="https://twitter.com/notsuspiciousn2">Twitter</a></li>
+				</ul>
+			</nav>
+		</article>
+		<article class="profile-card">
+			<header>
+				<figure>
+					<img src="/assets/profile-sitas.png" alt="Skytoon profile photo">
+				</figure>
+				<div>
+					<h3>Skytoon <span>(he/him)</span></h3>
+					<p>Contributor</p>
+				</div>
+			</header>
+			<section>
+				<p>Self proclaimed music glazer, i also glaze the gunners, i just glaze tbh</p>
+			</section>
+			<nav>
+				<ul>
+					<li>
+						<a target="_blank" href="https://twitter.com/Skytoon_Skytoon">Twitter</a><span>/</span>
+					</li>
+					<li>
+						<a target="_blank" href="https://youtube.com/@x">YouTube</a><span>/</span>
+					</li>
+					<li>
+						<a target="_blank" href="https://open.spotify.com/user/4aj7jfy2e1bd9cdsibeqli5fb">Spotify</a>
+					</li>
+				</ul>
+			</nav>
+		</article>
+		<div class="w-80 shrink grow"></div>
+	</div>
+</section>
+
+<section>
+	<h2 class="font-bold text-3xl">Hardware</h2>
+	<table></table>
+</section>

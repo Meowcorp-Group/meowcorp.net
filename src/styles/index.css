@@ -5,17 +5,50 @@
 }
 
 body {
-	@apply w-full flex flex-col items-center bg-slate-700
+	@apply w-full flex flex-col items-center bg-slate-600
 }
 
-header {
+body > header {
 	@apply w-full flex items-center p-4 bg-black text-white text-xl
 }
 
-main {
-	@apply w-full max-w-4xl p-4 text-white
+body > main {
+	@apply w-full max-w-4xl p-8 text-white bg-slate-700
 }
 
-footer {
-	@apply w-full max-w-4xl p-4 text-white
+body > footer {
+	@apply w-full max-w-4xl p-4 text-white bg-slate-700
+}
+
+.profile-card {
+	@apply bg-slate-800 shadow-lg flex flex-col p-4 gap-2 w-80 shrink grow
+}
+
+.profile-card header {
+	@apply flex items-center gap-4
+}
+
+.profile-card header img {
+	@apply w-14 h-14 rounded-full
+}
+
+.profile-card header h3 {
+	@apply text-2xl font-semibold
+}
+
+.profile-card header span {
+	@apply text-sm font-normal
+}
+
+.profile-card nav ul {
+	@apply flex gap-x-2 flex-wrap
+}
+
+.profile-card nav a {
+	@apply underline
+
+}
+
+.profile-card nav span {
+	@apply ml-2
 }
