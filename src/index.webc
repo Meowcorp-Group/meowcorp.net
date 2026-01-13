@@ -30,9 +30,6 @@ layout: layouts/base.webc
 						<a data-neko="true" target="_blank" href="https://wao.my.id">Website</a><span>/</span>
 					</li>
 					<li>
-						<a target="_blank" href="mailto:me@wao.my.id">Email</a><span>/</span>
-					</li>
-					<li>
 						<a target="_blank" href="https://github.com/Waoweens">GitHub</a><span>/</span>
 					</li>
 					<li>
@@ -82,7 +79,7 @@ layout: layouts/base.webc
 						<a target="_blank" href="https://twitter.com/Skytoon_Skytoon">Twitter</a><span>/</span>
 					</li>
 					<li>
-						<a target="_blank" href="https://youtube.com/@x">YouTube</a><span>/</span>
+						<a target="_blank" href="https://youtube.com/@skytoon_">YouTube</a><span>/</span>
 					</li>
 					<li>
 						<a target="_blank" href="https://open.spotify.com/user/4aj7jfy2e1bd9cdsibeqli5fb">Spotify</a>
