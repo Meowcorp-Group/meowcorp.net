@@ -4,10 +4,18 @@
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
+body {
+	@apply w-full flex flex-col items-center bg-slate-700
+}
+
 header {
-	@apply flex items-center p-4 bg-black text-white text-xl
+	@apply w-full flex items-center p-4 bg-black text-white text-xl
 }
 
 main {
-	@apply p-4 bg-slate-700 text-white
+	@apply w-full max-w-4xl p-4 text-white
+}
+
+footer {
+	@apply w-full max-w-4xl p-4 text-white
 }
